@@ -1,0 +1,22 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="cpod_sand_color">#D9C098</color>
+    <color name="action_bar">#ff0d0d0d</color>
+    <color name="white">#ffffff</color>
+    <color name="off_white">#99ffffff</color>
+    <color name="chinesepod_red">#AB151B</color>
+    <color name="chinesepod_dark_red">#8D141D</color>
+    <color name="stacked_red">#8D141D</color>
+    <color name="accent_red">#4A1B2B</color>
+    <color name="pressed">#8D141D</color>
+    <color name="hint">#99FFFFFF</color>
+    <color name="slide_group_status_new_textcolor">#ffffff</color>
+    <color name="slide_group_status_new_backgroundcolor">#8D141D</color>
+    <color name="slide_group_status_studying_textcolor">#a2a2a2</color>
+    <color name="slide_group_status_studying_backgroundcolor">#006926</color>
+    <color name="slide_group_status_complete_textcolor">#006926</color>
+    <color name="slide_group_status_complete_backgroundcolor">#a2a2a2</color>
+	<color name="slide_group_title_textcolor">#000000</color>
+   	<color name="slide_group_description_textcolor">#A2A2A2</color>
+</resources>

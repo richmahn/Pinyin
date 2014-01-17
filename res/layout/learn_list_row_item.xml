@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.chinesepod.pinyin.view.VerticalTextView
+        android:id="@+id/slide_group_status"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/slide_info_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/slide_info_layout"
+        android:layout_marginLeft="5dp"
+        android:background="@color/slide_group_status_new_backgroundcolor"
+        android:gravity="center"
+        android:text="@string/slide_status_new"
+        android:textColor="@color/slide_group_status_new_textcolor" />
+
+    <LinearLayout
+        android:id="@+id/slide_info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/slide_group_status"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/slide_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="TITLE"
+            android:textColor="@color/slide_group_title_textcolor"
+            android:textSize="@dimen/slide_group_title_textsize" />
+
+        <TextView
+            android:id="@+id/slide_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="DESCRIPTION"
+            android:textColor="@color/slide_group_description_textcolor"
+            android:textSize="@dimen/slide_group_description_textsize" />
+    </LinearLayout>
+
+</RelativeLayout>

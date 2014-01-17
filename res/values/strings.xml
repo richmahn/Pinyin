@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pinyin</string>
+    <string name="slide_status_new">new</string>
+    <string name="slide_status_studying">studying</string>
+    <string name="slide_status_complete">complete</string>
+	<string name="problem_recording">There was a problem recording  your voice. Please try again.</string>
+</resources>

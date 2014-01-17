@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ChoiceLeftButton" parent="android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/choice_button_text_color</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/choice_button_left</item>
+    </style>
+
+    <style name="ChoiceRightButton" parent="android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/choice_button_text_color</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/choice_button_right</item>
+    </style>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.stylingactionbar.widget</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav</item>
+        <item name="android:spinnerDropDownItemStyle">@style/DropDownItem</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:actionBarItemBackground">@drawable/selectable_item_background_stylingactionbar</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top</item>
+        <item name="android:actionModeCloseButtonStyle">@style/CloseButton</item>
+    </style>
+
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/chinesepod_red</item>
+        <item name="android:backgroundStacked">@color/stacked_red</item>
+        <item name="android:backgroundSplit">@color/chinesepod_red</item>
+    </style>
+
+    <style name="ActionBarTabStyle" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_stylingactionbar</item>
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_stylingactionbar</item>
+    </style>
+
+    <style name="DropDownListView" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_stylingactionbar</item>
+        <item name="android:divider">@color/pressed</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="Theme.stylingactionbar.widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
+        <item name="android:spinnerStyle">@style/DropDownNav</item>
+        <item name="android:editTextBackground">@drawable/edit_text_holo_dark</item>
+        <item name="android:textColorHint">@color/hint</item>
+    </style>
+
+    <style name="DropDownNav" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_stylingactionbar</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_stylingactionbar</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_stylingactionbar</item>
+    </style>
+
+    <style name="DropDownItem" parent="@android:style/Widget.Holo.Light.DropDownItem.Spinner">
+        <item name="android:textAppearance">?android:attr/textAppearanceInverse</item>
+    </style>
+
+    <style name="SpinnerItem" parent="@android:style/Widget.Holo.TextView.SpinnerItem">
+        <item name="android:textAppearance">?android:attr/textAppearanceInverse</item>
+    </style>
+
+    <style name="EditText" parent="@android:style/Widget.Holo.EditText">
+        <item name="android:background">@drawable/edit_text_holo_dark</item>
+    </style>
+
+    <style name="CloseButton" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/selectable_background_stylingactionbar</item>
+    </style>
+
+</resources>

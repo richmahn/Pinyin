@@ -1,0 +1,41 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <TableLayout
+            android:id="@+id/chart_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" >
+
+            <TableRow
+                android:id="@+id/chart_header_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableLayout>
+
+        <ScrollView
+            android:id="@+id/innerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@+id/chart_header"
+            android:layout_alignRight="@+id/chart_header"
+            android:layout_below="@+id/chart_header" >
+        </ScrollView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dip"
+            android:layout_alignLeft="@+id/chart_header"
+            android:layout_alignRight="@+id/chart_header"
+            android:layout_below="@+id/chart_header"
+            android:background="@drawable/drop_shadow" >
+        </View>
+    </RelativeLayout>
+
+</HorizontalScrollView>

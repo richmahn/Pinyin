@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="chart_column_width">24dp</dimen>
+    <dimen name="chart_column_height">20dp</dimen>
+    <dimen name="chart_column_textsize">8sp</dimen>
+    
+    <!-- Text sizes -->
+    <dimen name="text_size_small">14.0sp</dimen>
+    <dimen name="text_size_medium">16.0sp</dimen>
+
+    <!-- ActionBar color strip -->
+    <dimen name="colorstrip">5dp</dimen>
+
+    <dimen name="slide_title_text">35sp</dimen>
+    <dimen name="slide_body_text">12sp</dimen>
+    <dimen name="slide_line_spacing">20dp</dimen>
+    <dimen name="slide_line_spacing_between_audio">10dp</dimen>
+    
+    <dimen name="slide_group_title_textsize">20sp</dimen>
+    <dimen name="slide_group_description_textsize">15sp</dimen>
+    
+    <dimen name="sound_recorder_button_width">66dp</dimen>
+    <dimen name="sound_recorder_button_height">100dp</dimen>
+</resources>

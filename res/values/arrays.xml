@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pinyin_tones_ids">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>99</item>
+    </string-array>
+
+    <string-array name="pinyin_tones_display">
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>1st-4th</item>
+    </string-array>
+    
+    <string-array name="view_names">
+        <item>Chart</item>
+        <item>List</item>
+    </string-array>
+
+    <string-array name="genders">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+    
+</resources>

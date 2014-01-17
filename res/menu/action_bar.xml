@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_pinyin_tone_spinner"
+        android:actionViewClass="android.widget.Spinner"
+        android:orderInCategory="10"
+        android:showAsAction="always"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_view_spinner"
+        android:actionViewClass="android.widget.Spinner"
+        android:orderInCategory="15"
+        android:showAsAction="ifRoom"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_audio_gender_spinner"
+        android:actionViewClass="android.widget.Spinner"
+        android:icon="@drawable/female"
+        android:orderInCategory="25"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_toggle"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:orderInCategory="30"
+        android:showAsAction="never"
+        android:title="Toggle Bar"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_reference_view"
+        android:orderInCategory="35"
+        android:showAsAction="never"
+        android:title="List View"
+        android:visible="true"/>
+</menu>
